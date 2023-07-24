@@ -42,7 +42,7 @@ let GameManager = {
    let getEnemy = document.querySelector(".enemy");
    //Create enemy!
    let enemy00 = new Enemy("Krang", 50, 0, 100, 80, 150 );
-   let enemy01 = new Enemy("Russia", 100, 0, 40, 50, 100 );
+   let enemy01 = new Enemy("Brad", 100, 0, 40, 50, 100 );
    let enemy02 = new Enemy("Gola", 200, 0, 450, 250, 50 );
    let chooseRandomEnemy = Math.floor(Math.random() * Math.floor(3));
    switch (chooseRandomEnemy) {
